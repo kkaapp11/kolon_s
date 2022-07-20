@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>코오롱 스포츠</title>
+    <!-- 파비콘 -->
+    <link href="img/favicon1.png" type="image/icon" rel="shortcut icon">
+
+    <!-- fullpage.css -->
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+    <!-- swiper slide css cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <!-- slick slider css cdn -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- splide css연결 -->
+    <link rel="stylesheet" href="css/splide.min.css" type="text/css">
+    <!-- 외부 css 연결 -->
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- fullpage.js  -->
+    <script src="js/jquery.fullPage.js"></script>
+    <!-- font awesome icon -->
+    <script src="https://kit.fontawesome.com/9c5636788c.js" crossorigin="anonymous"></script>
+    <!-- swiper slide js cdn -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- tweenmax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <!-- slick slider js cdn -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- splide js 연결 -->
+    <script src="js/splide.min.js"></script>
+    <!-- 외부 js 연결 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <!-- 로고를 배경이미지로 넣기(반응형) -->
+        <div class="logo">
+            <a href="index.html"></a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <!-- 주메뉴 -->
+                    <a href="#">
+                        <!-- awesome icon -->
+                        <i class="fa-solid fa-star"></i>
+                        <!-- 주메뉴 애니메이션 -->
+                        <div class="main_menu">
+                            <div class="main_menu_box">
+                                <p>코오롱 스포츠</p>    
+                                <p>KOLON SPORT</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 서브메뉴 -->
+                    <ul class="sub">
+                        <li><a href="brand.html" class="sub_link">HISTORY</a></li>
+                        <li><a href="#">브랜드 히스토리</a></li>
+                        <li><a href="#">남극에 가다</a></li>
+                        <li><a href="#">도전의 기록</a></li>
+                        <li><a href="#">AMBASSADORS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <!-- 주메뉴 -->
+                    <a href="#">
+                        <!-- awesome icon -->
+                        <i class="fa-solid fa-star"></i>
+                        <!-- 주메뉴 애니메이션 -->
+                        <div class="main_menu">
+                            <div class="main_menu_box">
+                                <p>아웃도어</p>    
+                                <p>OUTDOOR</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 서브메뉴 -->
+                    <ul class="sub">
+                        <li><a href="#">ALL</a></li>
+                        <li><a href="#">Expert_Wear</a></li>
+                        <li><a href="#">Performance</a></li>
+                        <li><a href="#">Camping_Gear</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <!-- 주메뉴 -->
+                    <a href="#">
+                        <!-- awesome icon -->
+                        <i class="fa-solid fa-star"></i>
+                        <!-- 주메뉴 애니메이션 -->
+                        <div class="main_menu">
+                            <div class="main_menu_box">
+                                <p>샵</p>    
+                                <p>SHOP</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 서브메뉴 -->
+                    <ul class="sub">
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">상의</a></li>
+                        <li><a href="#">하의</a></li>
+                        <li><a href="#">홈웨어</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <!-- 주메뉴 -->
+                    <a href="#">
+                        <!-- awesome icon -->
+                        <i class="fa-solid fa-star"></i>
+                        <!-- 주메뉴 애니메이션 -->
+                        <div class="main_menu">
+                            <div class="main_menu_box">
+                                <p>이슈</p>    
+                                <p>ISSUE</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 서브메뉴 -->
+                    <ul class="sub">
+                        <li><a href="#">MAGAZINE</a></li>
+                        <li><a href="#">STORES</a></li>
+                        <li><a href="#">EXHIBITION</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <!-- 주메뉴 -->
+                    <a href="#">
+                        <!-- awesome icon -->
+                        <i class="fa-solid fa-star"></i>
+                        <!-- 주메뉴 애니메이션 -->
+                        <div class="main_menu">
+                            <div class="main_menu_box">
+                                <p>프로그램</p>    
+                                <p>PROGRAM</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 서브메뉴 -->
+                    <ul class="sub">
+                        <li><a href="#">코오롱등산학교</a></li>
+                        <li><a href="#">수강정보</a></li>
+                        <li><a href="#">ROAD LAB</a></li>
+                        <li><a href="#">참가신청</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="right_menu">
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+        </div>
+        <!-- 모바일에서 보이는 메뉴 버튼 -->
+        <div class="menu_btn">
+            <a href="#">
+                <img src="img/h-btn-s.png" alt="h-btn">
+            </a>
+        </div>
+        <!-- 모바일에서 보이는 메뉴 영역 -->
+        <div class="mobile_nav">
+            <div class="mobile_nav_in">
+                <div class="mobile_top_menu">
+                    <ul>
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">SIGN UP</a></li>
+                    </ul>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">코오롱 스포츠<i class="fa-solid fa-angle-down"></i></a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">HISTORY</a></li>
+                                <li><a href="#">브랜드 히스토리</a></li>
+                                <li><a href="#">남극에 가다</a></li>
+                                <li><a href="#">도전의 기록</a></li>
+                                <li><a href="#">AMBASSADORS</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">아웃도어<i class="fa-solid fa-angle-down"></i></a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">ALL</a></li>
+                                <li><a href="#">Expert_Wear</a></li>
+                                <li><a href="#">Performance</a></li>
+                                <li><a href="#">Camping_Gear</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">샵<i class="fa-solid fa-angle-down"></i></a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">아우터</a></li>
+                                <li><a href="#">상의</a></li>
+                                <li><a href="#">하의</a></li>
+                                <li><a href="#">홈웨어</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">이슈<i class="fa-solid fa-angle-down"></i></a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">MAGAZINE</a></li>
+                                <li><a href="#">STORES</a></li>
+                                <li><a href="#">EXHIBITION</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">프로그램<i class="fa-solid fa-angle-down"></i></a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">코오롱등산학교</a></li>
+                                <li><a href="#">수강정보</a></li>
+                                <li><a href="#">ROAD LAB</a></li>
+                                <li><a href="#">참가신청</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mobile_sns">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="img/blog.png" alt="블로그">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/you.png" alt="유투브">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/face.png" alt="face">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/in.png" alt="in">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 모바일 메뉴 영역 닫기 버튼 -->
+                <div class="mobile_close">
+                    <a href="javascript:void(0);">
+                        <img src="img/close_delete_icon.png" alt="닫기">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="sub_bg"></div>            
+    </header>
+    <div class="wrap" id="fullpage">
+        
+        <section class="section visual">
+            <!-- swiper slide -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide s1">
+                    <a href="#">
+                        <h3>#뉴 시그니처 바람막이</h3>
+                        <p>모든 봄날을 새롭게<br>
+                        일상부터 아웃도어까지</p>    
+                        <div class="visual-contents">
+                            <div class="ba">
+                                <img src="img/ba-1.png" alt="ba">
+                            </div>
+                        </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide s2">
+                    <a href="#">
+                        <h3>#윈드체이서</h3>
+                        <p>내추럴한 맵시로 아웃도어 룩을 비롯해<br>
+                            다양한 일상복과도 여러 제품과<br>
+                            스타일링이 용이합니다.
+                        </p>
+                        <div class="visual-contents">
+                            
+                        </div> 
+                    </a>
+                  </div>
+                  <div class="swiper-slide s3">
+                    <a href="#">
+                        <h3>#KOLON SPORT X SALOMON</h3>
+                        <h4>남녀공용 스피드 크로스 5 GTX<br>
+                            (SPEEDCROSS 5 GTX)</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br>elit,
+                                sed do eiusmod tempor incididunt ut labore<br>et dolore magna aliqua.</p>
+                        <div class="visual-contents">
+                            <div class="ball">
+                                <img src="img/ball.png" alt="ball">
+                            </div>
+                        </div>        
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+        <section class="section banner">
+            <div class="title">
+                <h1>NOACH PROJECT</h1>
+                <span>코오롱스포츠의 멸종위기 동식물 보호를 위한 노아 프로젝트</span>
+            </div>
+            <div class="contents">
+                <ul>
+                    <li class="hover_ani"><a href="javascript:void(0);">
+                        <div class="li_bg bg1"></div>
+                        <div class="li_des">
+                            <h3>RECYCLED PET</h3>
+                            <p>페트병 재활용</p>
+                            <button>자세히 보기</button>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </a></li>
+                    <li class="hover_ani"><a href="javascript:void(0);">
+                        <div class="li_bg bg2"></div>
+                        <div class="li_des">
+                            <h3>ORGANIC COTTON</h3>
+                            <p>오가닉 코튼</p>
+                            <button>자세히 보기</button>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </a></li>
+                    <li class="hover_ani"><a href="javascript:void(0);">
+                        <div class="li_bg bg3"></div>
+                        <div class="li_des">
+                            <h3>SAVE WATER</h3>
+                            <p>‘DTP 프린트’</p>
+                            <button>자세히 보기</button>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section six_tab">
+            <h1>KOLON_OUTER</h1>
+            <!-- slick slider -->
+            <div class="product">
+                <div class="p1">
+                    <div class="product_left">
+                        <h3>#EXPERT WEAR_OUTER</h3>
+                        <p>자연에 대한 경이와 무한한 탐험정신을 위해<br> 
+                        코오롱스포츠의 기술력과 노하우를 담았습니다.</p>
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg"></div>
+                                <div class="li_des">
+                                    <button>더보기</button>
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p2">
+                    <div class="product_left">
+                        <h3>컬러블록 제노아</h3>
+                        <p>코오롱나일론 [리사이클] 소재를 사용한<br>
+                        남녀공용 상하의 셋업 '나일락' 제품입니다.</p>
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg"></div>
+                                <div class="li_des">
+                                    <button>더보기</button>
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p3">
+                    <div class="product_left">
+                        <h3>아카이브 바람막이</h3>
+                        <p>새로운 코오롱스포츠의 시그니처<br>방풍 재킷으로
+                            제안하는 제품입니다.</p>
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg"></div>
+                                <div class="li_des">
+                                    <button>더보기</button>
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p4">
+                    <div class="product_left">
+                        <h3>아카이브 아노락 #이누크</h3>
+                        <p>코오롱나일론 리사이클 소재를<br>
+                            사용한 레트로 아노락 스타일입니다.</p>
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg"></div>
+                                <div class="li_des">
+                                    <button>더보기</button>
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p5">
+                    <div class="product_left">
+                        <h3>남성 경량 아노락</h3>
+                        <p>경량 나일론 스판 소재를 사용하여<br>
+                            가볍고 신축성이 우수합니다.</p>
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg"></div>
+                                <div class="li_des">
+                                    <button>더보기</button>
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p6">
+                    <div class="product_left">
+                        <h3>OS(OPTICAL SHIELD)</h3>
+                        <p>가볍고 부드러운 소재로 마치 홑겹<br>
+                            바람막이를 입은 듯한 착용감을 느낄 수 있습니다.</p>
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg"></div>
+                                <div class="li_des">
+                                    <button>더보기</button>
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </section>
+        <section class="section line_tab">       
+            <h1>CAMPING_GEAR</h1>
+            <div class="camping">
+                <!-- 썸네일 splide slide -->
+                <div class="camping_tite">
+                    <div id="thumbnail-carousel" class="splide">
+                        <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <a href="javascript:void(0);">#ODUMAK TP <i class="fa-solid fa-play"></i></a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a href="javascript:void(0);">#면텐트'오두막' <i class="fa-solid fa-play"></i></a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a href="javascript:void(0);">#AEROLITE <i class="fa-solid fa-play"></i></a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a href="javascript:void(0);">#캠핑 아이템 <i class="fa-solid fa-play"></i></a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>   
+                <!-- 이미지 splide slide -->
+                <div id="main-carousel" class="splide" aria-label="Beautiful Images">
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                              <li class="splide__slide">
+                                  <!-- 탭내용 이미지 -->
+                                  <div class="splide_img">
+                                    <div class="splide_img_in">
+                                        <img src="img/tt1.png" alt="텐트1">
+                                    </div>
+                                  </div>
+                                  <!-- 탭내용 설명 -->
+                                  <div class="splide_des">
+                                    <div class="splide_des_in">
+                                        <h3>레트로 감성의 캠핑로망 완성</h3>
+                                         <p>자연과 호흡하는 면 100% 텐트로<br>캠핑 로망을 실현하다!</p>
+                                    </div>
+                                  </div>
+                              </li>
+                              <li class="splide__slide">
+                                  <!-- 탭내용 이미지 -->
+                                  <div class="splide_img">
+                                    <div class="splide_img_in">
+                                        <img src="img/tt2-1.png" alt="텐트2">
+                                    </div>
+                                  </div>
+                                  <!-- 탭내용 설명 -->
+                                  <div class="splide_des">
+                                    <div class="splide_des_in">
+                                        <h3>넓고 쾌적한 실내 공간</h3>
+                                        <p>오두막 텐트와 함께 하는 따뜻하고<br>아늑한 캠핑</p>
+                                    </div>
+                                  </div>
+                              </li>
+                              <li class="splide__slide">
+                                  <!-- 탭내용 이미지 -->
+                                  <div class="splide_img">
+                                    <div class="splide_img_in">
+                                        <img src="img/tt3-1.png" alt="텐트3">
+                                    </div>
+                                  </div>
+                                  <!-- 탭내용 설명 -->
+                                  <div class="splide_des">
+                                    <div class="splide_des_in">
+                                        <h3>초경량 AEROLITE 텐트</h3>
+                                        <p>불빛이 아름답게 비치는 면텐트와<br>감성 가득한 캠핑</p>
+                                    </div>
+                                  </div>
+                              </li>
+                              <li class="splide__slide">
+                                 <!-- 탭내용 이미지 -->
+                                 <div class="splide_img">
+                                    <div class="splide_img_in">
+                                        <img src="img/tt4-1.png" alt="텐트4">
+                                    </div>
+                                  </div>
+                                  <!-- 탭내용 설명 -->
+                                  <div class="splide_des">
+                                    <div class="splide_des_in">
+                                        <h3>프리미엄 캠핑 장비</h3>
+                                        <p>캠핑 필수 장비와 아이템으로<br>더 자연과 가까워지는 캠핑</p>
+                                    </div>
+                                  </div>
+                                </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section hive">
+            <h1>LIFETECH</h1>
+            <span>생명을 보호하는 기술을 향한 끝없는 도전</span>
+            <div class="hive_box">
+                <div class="hive_left">
+                    <h3>라이프테크의 지속 개발</h3>
+                    <h4>생존에 대한 철학, 생명을 보호하는 완벽한 기술이<br>
+                        곧 아웃도어 R&D의 본질임을 담아내는 코오롱<br>
+                        스포츠의 라이프테크. 대자연 속 극한 상황에서 안전과<br>
+                        관련된 긴급대응 기능을 탑재한 제품으로 코오롱스포츠가<br>
+                        2006년부터 지속적인 연구 개발을 전개해온<br>
+                        프로젝트입니다.</h4>
+                    <p>LIFETECH ver.9<br>
+                        Gore-tex Pro Protection 3L<br>
+                        Ventilation<br>
+                        Emergency Blanket</p>    
+                </div>
+                <div class="hive_right">
+                    <div class="hive_contents">
+                        <div class="hive_con1">
+                            <img src="img/pp1.png" alt="p1">
+                        </div>
+                        <div class="hive_con2">
+                            <img src="img/pp2.png" alt="p2">
+                        </div>
+                        <div class="hive_con3">
+                            <img src="img/pp3.png" alt="p3">
+                        </div>
+                        <div class="hive_con4">
+                            <img src="img/pp4.png" alt="p4">
+                        </div>
+                        <div class="hive_con5">
+                            <img src="img/pp5.png" alt="p5">
+                        </div>
+                        <div class="hive_con6">
+                            <img src="img/pp6.png" alt="p6">
+                        </div>
+                    </div>
+                    <div class="hive_btns">
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg">
+                                    <img src="img/p1.png" alt="p1">
+                                </div>
+                                <!-- 테두리 -->
+                                <div class="li_line">
+                                    <img src="img/6-1s.png" alt="테두리">
+                                </div>
+                            </div>
+                            <p>ver.1</p>
+                            
+                        </div><!---contents 버튼-->
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg">
+                                    <img src="img/p2.png" alt="p2">
+                                </div>
+                                <!-- 테두리 -->
+                                <div class="li_line">
+                                    <img src="img/6-1s.png" alt="테두리">
+                                </div>
+                            </div>
+                            <p>k-le</p>
+                        
+                        </div><!---contents 버튼-->
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg">
+                                    <img src="img/p3.png" alt="p3">
+                                </div>
+                                <!-- 테두리 -->
+                                <div class="li_line">
+                                    <img src="img/6-1s.png" alt="테두리">
+                                </div>
+                            </div>
+                            <p>vLe.3</p>
+                        
+                        </div><!---contents 버튼-->
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg">
+                                    <img src="img/p4.png" alt="p4">
+                                </div>
+                                <!-- 테두리 -->
+                                <div class="li_line">
+                                    <img src="img/6-1s.png" alt="테두리">
+                                </div>
+                                
+                            </div>
+                            <p>Sve.4</p>
+                            
+                        </div><!---contents 버튼-->
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg">
+                                    <img src="img/p5.png" alt="p5">
+                                </div>
+                                <!-- 테두리 -->
+                                <div class="li_line">
+                                    <img src="img/6-1s.png" alt="테두리">
+                                </div>
+                            </div>
+                                <p>Ter.5</p>
+                            
+                        </div><!---contents 버튼-->
+                        <div class="contents">
+                            <div class="hover_ani">
+                                <div class="li_bg">
+                                    <img src="img/p6.png" alt="p6">
+                                </div>
+                                <!-- 테두리 -->
+                                <div class="li_line">
+                                    <img src="img/6-1s.png" alt="테두리">
+                                </div>
+                            </div>
+                                <p>ver.9</p>
+                        
+                        </div><!---contents 버튼-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section photo">
+            <div class="photo_text">
+                <h1>봄날에 어울리는<br>
+                    #시그니처 웨더코트 숏</h1>
+                    <p>화사한 컬러감으로 봄과 함께<br>
+                        캐주얼한 착장으로 돌아온<br>
+                        시그니처 웨더코트 숏</p>
+                    <span>부드러운 봄 컬러로 돌아온 웨더코트.<br> 
+                        3L 소재를 사용하여 짓궂은 봄비에도<br>
+                        착용할 수 있는 기능성 아우터 입니다.</span>
+            </div>
+            
+            <div class="contents">
+              <div class="hover_ani">
+                   <div class="li_bg"></div>
+                   <div class="li_des">
+                        <button>더보기</button>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                </div>
+            </div>                        
+        </section>
+        <section class="section event"> 
+            <div class="evnt_left">
+                <!-- swiper slider -->
+                <div class="swiper mySwiper3">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide event1">
+                          <a href="#"></a>
+                      </div>
+                      <div class="swiper-slide event2">
+                        <a href="#"></a>
+                      </div>
+                      <div class="swiper-slide event3">
+                        <a href="#"></a>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="event_right">
+                <h1>GORE-TEX 트레킹화 #페더 7</h1>
+                <h2>[당일산행에 완벽한 미드컷 트레킹화]</h2>
+                <p>코오롱스포츠의 시그니쳐
+                    미드컷 트레킹화 페더의<br>
+                    7번째 디자인입니다.
+                    페더 시리즈는 충분한<br>
+                    내구성을 기준으로 경량화를
+                    추구하고 있는 제품입니다.
+                </p>
+                <div class="contents">
+                    <div class="hover_ani">
+                         <div class="li_bg"></div>
+                         <div class="li_des">
+                              <button>더보기</button>
+                              <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section class="section membership">
+            <h1>NEW MEMBERSHIP</h1>
+            <p>코오롱스포츠와 설레는 첫 만남! 회원 가입 혜택</p>
+            <div class="membership_box">
+                <div class="contents">
+                    <div class="hover_ani">
+                         <div class="li_bg bg1"></div>
+                         <div class="li_des">
+                              <b>01</b>
+                              <h2>KOLON SPORT.COM</h2>
+                              <button>회원 가입 하러가기</button>
+                              <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                      </div>
+                </div>
+                <div class="contents">
+                    <div class="hover_ani">
+                         <div class="li_bg bg2"></div>
+                         <div class="li_des">
+                              <b>02</b>
+                              <h2>KOLON SPORT.COM</h2>
+                              <button>첫 구매 혜택 보러 가기</button>
+                              <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <footer class="section fp-auto-height">
+            <div class="top">TOP</div>
+            <div class="footer_top">
+                <div class="tel">
+                    <div class="tel1">
+                        <span>KOLON SPORT 고객센터</span>
+                        <p>1588-7667</p>
+                    </div>
+                    <div class="tel2">
+                        <p>이용시간 평일 09:00~18:00</p>
+                        <p>점심시간 12:00~13:00</p>
+                    </div>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="img/blog.png" alt="블로그">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="img/you.png" alt="유투브">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="img/face.png" alt="face">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="img/in.png" alt="in">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="addr">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0);">공지사항</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">이벤트</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">개인정보처리방침</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <address>
+                        코오롱인더스트리㈜ FnC부문<br>
+                        대표이사 : 유석진 / 서울특별시 강남구 삼성로 518 &nbsp;<br>대표메일 : kolonsport@kolon.com<br>
+                        TEL : 1588-7667 (유료)&nbsp;&nbsp;&nbsp;  통신판매업신고 : 제2017-서울강남-02297호<br>
+                        사업자등록번호 : 138-85-19612 &nbsp;&nbsp;&nbsp;사업자정보 확인<br>
+                        
+                        <p>ⓒ KOLON SPORT all rights reserved</p>
+                    </address>
+                </div>
+                <div class="footer_logo">
+                    <img src="img/logos1-1.png" alt="logo">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        // slick slider(.six_tab)
+        $('.product').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+    </script>
+    
+</body>
+</html>
